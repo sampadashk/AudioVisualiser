@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="pref_show_bass_cal">true</bool>
+    <bool name="pref_show_sqr_val">false</bool>
+    <bool name="pref_show_mid_val">false</bool>
+
+</resources>

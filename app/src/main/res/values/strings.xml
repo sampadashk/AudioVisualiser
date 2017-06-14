@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Visualize</string>
+
+    <!-- TODO (4) Add string for Settings -->
+
+    <!-- - - - - - - - - - - - - - - -
+          - Used by Preferences  -
+          - - - - - - - - - - - - - - - -->
+    <string name="pref_color_label">Shape color</string>
+    <string name="pref_color_label_red">Red</string>
+    <string name="pref_color_label_blue">Blue</string>
+    <string name="pref_color_label_green">Green</string>
+    <string name="hide">hidden</string>
+    <string name="show">shown</string>
+    <string name="pref_color_key">color</string>
+    <string name="pref_size_key">size </string>
+    <string name="pref_size_label">Size Multiplier</string>
+    <string name="pref_size_default">1</string>
+
+    <!-- Value in SharedPreferences for red color option -->
+    <string name="pref_color_red_value" translatable="false">red</string>
+
+    <!-- Value in SharedPreferences for blue color option -->
+    <string name="pref_color_blue_value" translatable="false">blue</string>
+
+    <!-- Value in SharedPreferences for green color option -->
+    <string name="pref_color_green_value" translatable="false">green</string>
+    <string name="action_setting">setting</string>
+    <string name="pref_show_bass_key" translatable="false">show_bass</string>
+    <string name="pref_show_mid_key" translatable="false">show_mid</string>
+    <string name="pref_show_sqr_key" translatable="false">show_sqr</string>
+</resources>

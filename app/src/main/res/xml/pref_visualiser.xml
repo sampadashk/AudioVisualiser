@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+<CheckBoxPreference
+    android:defaultValue="@bool/pref_show_bass_cal"
+    android:key="@string/pref_show_bass_key"
+    android:summaryOff="@string/hide"
+    android:summaryOn="@string/show"
+    android:title="Show Bass"
+    />
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_show_mid_val"
+        android:key="@string/pref_show_mid_key"
+        android:summaryOff="@string/hide"
+        android:summaryOn="@string/show"
+        android:title="Show Mid"
+        />
+    <CheckBoxPreference
+    android:defaultValue="@bool/pref_show_sqr_val"
+    android:key="@string/pref_show_sqr_key"
+    android:summaryOff="@string/hide"
+    android:summaryOn="@string/show"
+    android:title="Show Square"
+    />
+    <ListPreference
+        android:defaultValue="@string/pref_color_red_value"
+        android:key="@string/pref_color_key"
+        android:entries="@array/pref_option_color_labels"
+        android:entryValues="@array/pref_option_color_values"
+
+        android:title="@string/pref_color_label"
+
+        />
+    <EditTextPreference
+        android:key="@string/pref_size_key"
+        android:defaultValue="@string/pref_size_default"
+        android:title="@string/pref_size_label"
+        />
+
+
+
+
+
+
+
+
+</PreferenceScreen>
